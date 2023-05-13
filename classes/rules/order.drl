@@ -8,7 +8,7 @@ rule "HDFC"
 when
     order: Order(cardType=="HDFC" && price>10000)
 then
-    order.setDiscount(36);
+    order.setDiscount(25);
 end
 
 rule "ICICI"
